@@ -46,5 +46,18 @@
 	<key>NSAllowsArbitraryLoads</key>
 	<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+    <string>Can I use the camera please?</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Can I use the mic please?</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Camera App would like to save photos from the app to your gallery</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Camera App would like to access your photo gallery for uploading images to the app</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+       <key>NSAllowsArbitraryLoads</key>
+       <true/>
+    </dict>
 </dict>
 </plist>
